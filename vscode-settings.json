@@ -1,5 +1,26 @@
 {
+    // to use the dotfiles:
     "dotfiles.repository": "https://github.com/jimhigson/dotfiles.git",
     "dotfiles.targetPath": "~/dotfiles",
     "dotfiles.installCommand": "fishy-linux.sh",
+    // not related to dotfiles:
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono'",
+    "editor.fontFamily": "'FiraCode Nerd Font Mono'",
+    "editor.fontLigatures": true,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoSurround": "never",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            "editor.background": "#000"
+        },
+        "[Default Dark Modern]": {
+            "editor.background": "#000"
+        }
+    }
 }

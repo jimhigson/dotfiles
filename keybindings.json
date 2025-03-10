@@ -1,0 +1,26 @@
+// put at ~/Library/Application Support/Code/User/keybindings.json
+// or bring up with command "Open Keyboard Shortcuts (JSON)"
+[
+    {
+        "key": "ctrl+shift+.",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+b shift+\\",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+b -",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorDown"
+    }
+]
